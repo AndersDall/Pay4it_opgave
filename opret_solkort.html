@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <title>Ekstra Produkter</title>
+
+
+        <link rel="stylesheet" href="styles.css">
+<script type="module" src="./scripts/scripts.js"></script>
+<script>import {solkort_valg} from "./scripts/scripts.js";
+</script>
+    </head>
+    <body>
+      <style>
+        h1 {
+          text-align: center;
+        }
+        div {
+          display: flex;
+          justify-content: space-around;
+        }
+      </style>
+      <h1>Opret solkort</h1>
+      <div>
+        <button id="200kr" onclick="solkort_valg(200)"><a href=betalingsform.html>Vælg 200 kr.</a></button>
+        <button id="700kr" onclick="solkort_valg(700)"><a href=betalingsform.html>Vælg 700 kr.</a></button>
+        <button id="500kr" onclick="solkort_valg(500)"><a href=betalingsform.html>Vælg 500 kr.</a></button>
+      </div>
+
+
+
+
+    </body>
+</html>
